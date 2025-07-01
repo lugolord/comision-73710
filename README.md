@@ -1,12 +1,81 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🛒 React Ecommerce App
 
-Currently, two official plugins are available:
+Este es un proyecto de ecommerce desarrollado con **React**. La aplicación permite a los usuarios navegar por una lista de productos, filtrarlos por categoría, agregarlos al carrito y finalizar la compra.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🛍️ **Mostrar productos:** Vista de todos los productos disponibles.
+- 📂 **Filtrar por categoría:** Los usuarios pueden filtrar productos por categoría.
+- ➕ **Agregar al carrito:** Permite agregar productos seleccionados al carrito de compras.
+- ✅ **Finalizar compra:** Flujo de checkout para completar la compra.
+
+---
+
+## 🛠️ Tecnologías y dependencias
+
+- [React](https://reactjs.org/) - Biblioteca principal para construir la interfaz.
+- [React Router](https://reactrouter.com/en/main) - Navegación entre páginas y rutas.
+- [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/) - Estilos y componentes UI.
+- [Firebase](https://firebase.google.com/docs) - Backend para almacenamiento de productos, órdenes, etc.
+
+---
+
+## 📁 Estructura del proyecto (ejemplo)
+
+```
+src/
+├── components/
+│   ├── ProductList/
+│   ├── ProductCard/
+│   ├── Cart/
+│   └── ...
+├── pages/
+│   ├── Home.jsx
+│   ├── Category.jsx
+│   └── Checkout.jsx
+├── context/
+│   └── CartContext.jsx
+├── services/
+│   └── firebase.js
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+## 📦 Instalación
+
+1. Clonar el repositorio:
+
+```bash
+git clone https://github.com/tu-usuario/nombre-del-repo.git
+cd nombre-del-repo
+```
+
+2. Instalar dependencias:
+
+```bash
+npm install
+```
+
+3. Ejecutar la app en modo desarrollo:
+
+```bash
+npm run dev
+```
+
+---
+
+## 📝 Licencia
+
+Este proyecto está bajo la licencia [MIT](https://choosealicense.com/licenses/mit/).
+
+---
+
+## ✨ Autor
+
+Desarrollado por [Luis González](https://luisgonz.tech) 🇦🇷  
+[LinkedIn](https://linkedin.com/in/luisgonzr) | [Email](mailto:luisgonz.dev@gmail.com)
